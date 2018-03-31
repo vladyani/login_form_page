@@ -46,7 +46,6 @@ const hideProgressBar = function(){
     progressBar.style.display = 'none';
 }
 
-
 let input = document.querySelector('#passwordField');
 input.addEventListener('keyup', checkPasswordStregth);
 input.addEventListener('click', showProgressBar);
