@@ -1,0 +1,121 @@
+body {
+    background-color: #16191E;
+    font-size: 20px;
+    text-align: center;
+}
+
+#container {
+    background-color: #2e3137;
+    width: 300px;
+    padding: 80px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+/*
+    -webkit-box-shadow: 3px 3px 3px 5px rgba(204,204,204,0.9);
+    -moz-box-shadow: 3px 3px 3px 5px rgba(204,204,204,0.9);
+    box-shadow: 3px 3px 3px 5px rgba(204,204,204,0.9);
+*/
+}
+
+input[type=text],
+[type=password] {
+    width: 300px;
+    background-color: #2e3137;
+    color: #666;
+    border: 1px solid #999;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 10px;
+}
+
+[type=password]{
+     margin-bottom:20px;
+}
+
+
+progress{
+    width:300px;
+    height:7px;
+    background-color: #000;
+    display:none;
+}
+
+
+input[type=text]:focus,
+input[type=password]:focus {
+    /*-webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);*/
+    /*-moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);*/
+    /*box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);*/
+    border: 1px solid #3de6af;
+    background-color: #2e3137;
+    color: #999;
+}
+
+input[type=submit] {
+    width: 300px;
+    background-color: #3de6af;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 15px 10px;
+    border: none;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+    margin-top:30px;
+}
+
+input[type=submit]:focus {
+/*
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(204, 204, 204, 0.9);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(204, 204, 204, 0.9);
+    box-shadow: 0px 0px 15px 5px rgba(204, 204, 204, 0.9);
+*/
+}
+
+input[type=submit]:hover {
+    background-color: #666;
+}
+
+input::-webkit-input-placeholder {
+    color: #999;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: #999;
+}
+
+/* Firefox < 19 */
+
+input:-moz-placeholder {
+    color: #999;
+}
+
+input:focus:-moz-placeholder {
+    color: #999;
+}
+
+/* Firefox > 19 */
+
+input::-moz-placeholder {
+    color: #999;
+}
+
+input:focus::-moz-placeholder {
+    color: #999;
+}
+
+/* Internet Explorer 10 */
+
+input:-ms-input-placeholder {
+    color: #999;
+}
+
+input:focus:-ms-input-placeholder {
+    color: #999;
+}
