@@ -35,7 +35,7 @@ const checkPasswordStregth = function (password) {
 const showProgressBar = function(){
     let progressBar = document.querySelector('progress');
     
-    progressBar.style.display = 'inline-block';
+    progressBar.style.visibility = 'visible';
     
    
 }
@@ -43,7 +43,7 @@ const showProgressBar = function(){
 const hideProgressBar = function(){
     let progressBar = document.querySelector('progress');
     
-    progressBar.style.display = 'none';
+    progressBar.style.visibility = 'hidden';
 }
 
 let input = document.querySelector('#passwordField');

@@ -41,7 +41,7 @@ progress{
     width:280px;
     height:5px;
     background-color: #000;
-    display:none;
+    visibility: hidden;
 }
 
 
